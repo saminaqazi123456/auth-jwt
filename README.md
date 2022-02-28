@@ -1,6 +1,6 @@
 # auth-jwt
 
-![Final App](https://recordit.co/ufmeHgjJ7z)
+https://recordit.co/ufmeHgjJ7z
 Minimal full-stack MERN app with authentication using passport and JWTs
 
 This project uses the following technologies:
