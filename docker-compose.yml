@@ -1,0 +1,17 @@
+services:
+  server:
+    container_name: auth-server
+    restart: always
+    build: ./
+    ports:
+      - '4000:4000'
+    volumes:
+      - ./server:/usr/src/app
+  client:
+    container_name: auth-client
+    restart: always
+    build: ./client
+    volumes:
+      - ./client:/usr/src/app/client
+    ports:
+      - '3000:3000'
